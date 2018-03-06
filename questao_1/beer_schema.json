@@ -1,0 +1,279 @@
+{
+ "$id": "https://api.punkapi.com/v2/beers/beers.json",
+ "type": "array",
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "items": {
+   "$id": "https://api.punkapi.com/v2/beers/beers.json/items",
+   "type": "object",
+   "properties": {
+      "id": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema "
+      },
+      "name": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema "
+      },
+      "tagline": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/tagline",
+        "type": "string",
+        "title": "The Tagline Schema "
+      },
+      "first_brewed": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/first_brewed",
+        "type": "string",
+        "title": "The First_brewed Schema "
+      },
+      "description": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/description",
+        "type": "string",
+        "title": "The Description Schema "
+      },
+      "image_url": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/image_url",
+        "type": "string",
+        "title": "The Image_url Schema "
+      },
+      "abv": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/abv",
+        "type": "number",
+        "title": "The Abv Schema "
+      },
+      "ibu": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ibu",
+        "type": "integer",
+        "title": "The Ibu Schema "
+      },
+      "target_fg": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/target_fg",
+        "type": "integer",
+        "title": "The Target_fg Schema "
+      },
+      "target_og": {
+        "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/target_og",
+        "type": "integer",
+        "title": "The Target_og Schema "
+      },
+       "ebc": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ebc",
+         "type": "integer",
+         "title": "The Ebc Schema "
+       },
+       "srm": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/srm",
+         "type": "integer",
+         "title": "The Srm Schema "
+       },
+       "ph": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ph",
+         "type": "number",
+         "title": "The Ph Schema"
+       },
+       "attenuation_level": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/attenuation_level",
+         "type": "integer",
+         "title": "The Attenuation_level Schema "
+       },
+       "volume": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/volume",
+         "type": "object",
+         "properties": {
+           "value": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/volume/properties/value",
+             "type": "integer",
+             "title": "The Value Schema "
+           },
+           "unit": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/volume/properties/unit",
+             "type": "string",
+             "title": "The Unit Schema "
+           }
+         }
+       },
+       "boil_volume": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/boil_volume",
+         "type": "object",
+         "properties": {
+           "value": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/boil_volume/properties/value",
+             "type": "integer",
+             "title": "The Value Schema "
+           },
+           "unit": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/boil_volume/properties/unit",
+             "type": "string",
+             "title": "The Unit Schema "
+           }
+         }
+       },
+       "method": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method",
+         "type": "object",
+         "properties": {
+           "mash_temp": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp",
+             "type": "array",
+             "items": {
+               "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp/items",
+               "type": "object",
+               "properties": {
+                 "temp": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp/items/properties/temp",
+                   "type": "object",
+                   "properties": {
+                     "value": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp/items/properties/temp/properties/value",
+                       "type": "integer",
+                       "title": "The Value Schema "
+                     },
+                     "unit": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp/items/properties/temp/properties/unit",
+                       "type": "string",
+                       "title": "The Unit Schema "
+                     }
+                   }
+                 },
+                 "duration": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/mash_temp/items/properties/duration",
+                   "type": "integer",
+                   "title": "The Duration Schema "
+                 }
+               }
+             }
+           },
+           "fermentation": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/fermentation",
+             "type": "object",
+             "properties": {
+               "temp": {
+                 "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/fermentation/properties/temp",
+                 "type": "object",
+                 "properties": {
+                   "value": {
+                     "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/fermentation/properties/temp/properties/value",
+                     "type": "integer",
+                     "title": "The Value Schema "
+                   },
+                   "unit": {
+                     "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/fermentation/properties/temp/properties/unit",
+                     "type": "string",
+                     "title": "The Unit Schema "
+                   }
+                 }
+               }
+             }
+           },
+           "twist": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/method/properties/twist",
+             "type": "string",
+             "title": "The Twist Schema "
+           }
+         }
+       },
+       "ingredients": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients",
+         "type": "object",
+         "properties": {
+           "malt": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt",
+             "type": "array",
+             "items": {
+               "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt/items",
+               "type": "object",
+               "properties": {
+                 "name": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt/items/properties/name",
+                   "type": "string",
+                   "title": "The Name Schema "
+                 },
+                 "amount": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt/items/properties/amount",
+                   "type": "object",
+                   "properties": {
+                     "value": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt/items/properties/amount/properties/value",
+                       "type": "number",
+                       "title": "The Value Schema "
+                     },
+                     "unit": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/malt/items/properties/amount/properties/unit",
+                       "type": "string",
+                       "title": "The Unit Schema "
+                     }
+                   }
+                 }
+               }
+             }
+           },
+           "hops": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops",
+             "type": "array",
+             "items": {
+               "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items",
+               "type": "object",
+               "properties": {
+                 "name": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/name",
+                   "type": "string",
+                   "title": "The Name Schema "
+                 },
+                 "amount": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/amount",
+                   "type": "object",
+                   "properties": {
+                     "value": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/amount/properties/value",
+                       "type": "number",
+                       "title": "The Value Schema "
+                     },
+                     "unit": {
+                       "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/amount/properties/unit",
+                       "type": "string",
+                       "title": "The Unit Schema "
+                     }
+                   }
+                 },
+                 "add": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/add",
+                   "type": "string",
+                   "title": "The Add Schema "
+                 },
+                 "attribute": {
+                   "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/hops/items/properties/attribute",
+                   "type": "string",
+                   "title": "The Attribute Schema "
+                 }
+               }
+             }
+           },
+           "yeast": {
+             "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/ingredients/properties/yeast",
+             "type": "string",
+             "title": "The Yeast Schema "
+           }
+         }
+       },
+       "food_pairing": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/food_pairing",
+         "type": "array",
+         "items": {
+           "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/food_pairing/items",
+           "type": "string",
+           "title": "The 0th Schema "
+         }
+       },
+       "brewers_tips": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/brewers_tips",
+         "type": "string",
+         "title": "The Brewers_tips Schema "
+       },
+       "contributed_by": {
+         "$id": "https://api.punkapi.com/v2/beers/beers.json/items/properties/contributed_by",
+         "type": "string",
+         "title": "The Contributed_by Schema "
+       }
+     }
+   }
+ }

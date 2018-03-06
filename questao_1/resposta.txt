@@ -1,0 +1,22 @@
+Dado o JSON schema definido no arquivo ./beer_schema.json e responsável por representar a lista de objetos "beer" da API (https://api.punkapi.com/v2/beers/:id)
+
+Considero como soluções de armazenamento bancos de dados NoSql devido a possibilidade melhor escalabilidade e performance no ambiente atual, além da facilidade
+de implementação da Api`s REST nesse modelo de banco, visto que são necessárias poucas interações no código para conversão de objetos relacionais para formatos JSON.
+
+Portanto proponho duas soluções que implementam o mesmo JSON SCHEMA em diferentes arquiteturas:
+
+MongoDb:
+- Armazenamento dos dados em formato de embbeded documents;
+- Solução amplamente utilizada no mercado;
+- Muitos cases implementados no mercado;
+- Fácil escalar em ambientes cloud;
+- Integração AWS;
+- Alta performance comprovada.
+
+Realtime Databases (RethinkDb/Firebase)
+- Novas tecnologias de Realtime Web;
+- Atualizações de componentes em tempo real;
+- Possibilidade de utilização em Front-end e Back-end;
+- Acredito que será a próxima grande mudança de arquitetura em relação a armazenamento de dados;
+- Ferramentas desenhadas para escalar em ambientes cloud;
+- Apesar de todas as vantagens, soluções ainda são pouco utilizadas no mercado, o que gera insegurança para aplicar em ambientes corporativos.
